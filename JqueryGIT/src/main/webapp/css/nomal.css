@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+form {
+          border: 1px #a39485 solid;
+          font-size: 16px;
+          font-weight: bold;
+          box-shadow: 0 2px 5px rgba(0,0,0,.25);
+          width: 90%;
+          border-collapse: collapse;
+          border-radius: 5px;
+          overflow: hidden;
+          padding: 20px;
+          background-color: #675d53;
+          color: #fff;
+         }
+form label {
+            width : 100px;
+            display:inline-table;
+            padding: 10px;
+         }
+input {
+        padding:5px 10px; margin:5px;
+         }
+    
+table {
+		  border: 1px #a39485 solid;
+		  font-size: .9em;
+		  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+		  width: 768px;
+		  border-collapse: collapse;
+		  border-radius: 5px;
+		  overflow: hidden;
+		}
+
+thead {
+		  font-weight: bold;
+		  color: #fff;
+		  background: #73685d;
+		  text-align: center;
+		}
+  
+ td, th {
+		  padding: 1em .5em;
+		  vertical-align: middle;
+		   text-align: center;
+		}
+  
+ td {
+		  border-bottom: 1px solid rgba(0,0,0,.1);
+		  background: #fff;
+		}
+a {
+		  color: #73685d;
+		}
+table.vertical th {
+          width: 200px;
+          font-weight: bold;
+          color: #fff;
+          background: #73685d;
+          text-align: left;
+          padding-left: 20px;
+        }
+table.vertical td {
+            text-align: left;
+          padding-left: 20px;
+        }
+
+/*DL, DT, DD TAGS LIST DATA*/
+dl {
+    margin-bottom:50px;
+}
+ 
+dl dt {
+    background:#5f9be3;
+    color:#fff;
+    float:left; 
+    font-weight:bold; 
+    margin-right:10px; 
+    padding:5px;  
+    width:100px; 
+}
+ 
+dl dd {
+    margin:2px 0; 
+    padding:5px 0;
+    border: 1px solid #5f9be3;
+    width: 70%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CDN: Content Delivery  Network </title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+    	//h1태그의 내용을 index를 주고 값을 차례로 불러온다
+        $('h1').each(function(index, item){
+        	$(this).addClass('highlight_' + index)
+        });
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="css/nomal.css" />
+<style type="text/css">
+    .highlight_0 {background: violet;}
+    .highlight_1 {background: red;}
+    .highlight_2 {background: orange;}
+    .highlight_3 {background: yellow;}
+    .highlight_4 {background: green;}
+    .highlight_5 {background: blue;}
+    .highlight_6 {background: navy;}
+</style>
+</head>
+<body>
+			<h1>0 태풍</h1>
+			<h1>1 흰남노</h1>
+			<h1>2 난마돌</h1>
+			<h1>3 메기</h1>
+			<h1>4 송다</h1>
+			<h1>5 무란</h1>
+			<h1>6 말라카스</h1>
+			<h1>7 므르복</h1>
+			<h1>8 메아리</h1>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('h1').css('background', 'orange')
+               .filter(':even').css('color','red')
+               .end() //앞의 filter를 종료하고 한 단계 뒤로
+               .filter(':odd').css('color','blue');
+
+    });
+</script>
+<link rel="stylesheet" type="text/css" href="../css/nomal.css" />
+
+</head>
+<body>
+    <div>
+          <span>one</span> <span>two</span> <span>three</span> <span>four</span>
+        </div>
+        <div>
+          <span>five</span> <span>six</span>        <span>seven<span><span>eight<span>
+        </div>
+</body>
+</html>
